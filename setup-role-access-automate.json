@@ -1,0 +1,27 @@
+﻿{
+	"template":
+	{
+		"roles":
+		[
+			{
+				"title": "Automate",
+				"methods":
+				[
+					{"title": "CORE_DEBUG_LOG_MANAGE", "canuse": "N", "canadd": "Y", "canupdate": "N", "canremove": "Y", "guidmandatory": "N"},
+					{"title": "CORE_LOGOFF", "canuse": "Y", "canadd": "N", "canupdate": "N", "canremove": "N", "guidmandatory": "N"},
+					{"title": "CORE_MORE_SEARCH", "canuse": "Y", "canadd": "N", "canupdate": "N", "canremove": "N", "guidmandatory": "N"},
+					{"title": "LOGON", "canuse": "Y", "canadd": "N", "canupdate": "N", "canremove": "N", "guidmandatory": "N"},
+					{"title": "SETUP_USER_DATA_ACCESS_SEARCH", "canuse": "Y", "canadd": "N", "canupdate": "N", "canremove": "N", "guidmandatory": "N"},
+					{"title": "SETUP_USER_DATA_ACCESS_MANAGE", "canuse": "N", "canadd": "Y", "canupdate": "N", "canremove": "Y", "guidmandatory": "N"},
+					{"title": "SETUP_CONTACT_RELATIONSHIP_TYPE_SEARCH", "canuse": "Y", "canadd": "N", "canupdate": "N", "canremove": "N", "guidmandatory": "N"},
+					{"title": "SETUP_CONTACT_RELATIONSHIP_STATUS_SEARCH", "canuse": "Y", "canadd": "N", "canupdate": "N", "canremove": "N", "guidmandatory": "N"},
+					{"title": "CONTACT_RELATIONSHIP_SEARCH", "canuse": "Y", "canadd": "N", "canupdate": "N", "canremove": "N", "guidmandatory": "N"},
+					{"title": "CONTACT_BUSINESS_SEARCH", "canuse": "Y", "canadd": "N", "canupdate": "N", "canremove": "N", "guidmandatory": "N"},
+					{"title": "CONTACT_BUSINESS_GROUP_SEARCH", "canuse": "Y", "canadd": "N", "canupdate": "N", "canremove": "N", "guidmandatory": "N"},
+					{"title": "CONTACT_RELATIONSHIP_MANAGE", "canuse": "N", "canadd": "Y", "canupdate": "N", "canremove": "Y", "guidmandatory": "N"}
+				],
+				"properties": []
+			}
+		]
+	}
+}
