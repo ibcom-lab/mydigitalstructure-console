@@ -70,6 +70,8 @@ module.exports =
 						value: response.data.rows
 					});
 
+					//convert to show as "object" like at /schema
+
 					mydigitalstructure.invoke('util-end', objects)
 				}
 			}
